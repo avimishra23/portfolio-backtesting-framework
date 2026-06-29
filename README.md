@@ -1,6 +1,6 @@
 # Portfolio Backtesting Framework
 
-[![Open UI In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/portfolio-backtesting-framework/blob/main/notebooks/Portfolio_Backtesting_UI.ipynb)
+Open UI in Colab: https://colab.research.google.com/drive/1MlZoX5C96wrfry3OPqIfIqDXxxxF4SWO#scrollTo=odGZBbE19e_r
 
 Advanced quantitative finance project for building, testing, and presenting systematic investment strategies with a reusable Python engine.
 
