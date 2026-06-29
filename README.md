@@ -251,10 +251,6 @@ The framework computes:
 - Interactive report export workflow
 - Optional `vectorbt` and `backtrader` adapters
 
-## Resume Description
-
-Built a production-style portfolio backtesting framework in Python for multi-asset quantitative strategy research. Implemented Yahoo Finance data ingestion, feature engineering, reusable strategy abstractions, transaction-cost-aware portfolio simulation, risk and performance analytics, benchmark attribution, and interactive Plotly tear sheets. Added optional `vectorbt` and `backtrader` adapters for validation against industry-standard research libraries.
-
 ## Potential Upgrades
 
 - Add walk-forward optimization and train/test splits.
