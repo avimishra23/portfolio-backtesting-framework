@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portfolio-backtesting-framework"
+version = "0.1.0"
+description = "Reusable multi-asset portfolio backtesting framework for quantitative strategy research."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Quant Research Project" }]
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "yfinance>=0.2.40",
+    "plotly>=5.20.0",
+    "scipy>=1.11.0",
+    "nbformat>=5.9.0"
+]
+
+[project.optional-dependencies]
+research = [
+    "ipywidgets>=8.1.0",
+    "vectorbt>=0.27.0",
+    "backtrader>=1.9.78.123"
+]
+test = [
+    "pytest>=8.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
